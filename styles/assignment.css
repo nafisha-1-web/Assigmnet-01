@@ -1,0 +1,141 @@
+
+
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/* shared style */
+
+.green{
+    color: #006A50;
+}
+
+.dark-2{
+    color:#0E0E0E
+}
+
+.btn-primary{
+    color: #006A50;
+    border-radius: 5px;
+    padding: 15px 30px;
+    border-color: #006A50;
+    background-color: white;
+}
+.btn-secondary{
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 30px;
+    background-color: #006A50;
+}
+.body{
+    background-color: beige;
+}
+
+
+/* Nav Styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin right: auto;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+   
+}
+/* banner section */
+.green-banner{
+    background-color:#C6E4D6 ;
+    opacity: 100%;
+    text-align: left;
+    padding: 80px 100px ;
+    display: flex;
+    justify-content: space-between;
+    height: 560px;
+    width: 1260px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.banner-profile-pic{
+    width=474px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.white-banner{
+font-size: 40px;
+font-weight: bold;
+padding: 80px 100px ;
+background-color: #FFFFFF;
+border-radius: 10px;
+}
+
+.banner-content-1{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px;
+    
+    padding-right: 80px;
+
+}
+
+.banner-content-2{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px;
+    
+    padding-right: 80px;
+}
+
+.banner-content-3{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px;
+    
+    padding-right: 80px;
+    background-color: #5490F5;
+
+}
+
+.banner-paragraph{
+    color:#0E0E0E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+}
